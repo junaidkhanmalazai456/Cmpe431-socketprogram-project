@@ -1,21 +1,12 @@
-# Cmpe431-socketprogram-project
-/*
-  This code represent basic Concurrent Echo Server for linux platform. It's used to teach how basic server  running.
-For compile code : # gcc concurrent.c -o concurrent
-  -----------------------Copyright Devrim Seral---------------------------------
-*/
-/* C header files */
+ //Cmpe431-socketprogram-project
 #include <sys/types.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-/* Socket API headers */
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-
-/* Definations */
 #define DEFAULT_BUFLEN 512
 #define PORT 1214
 
